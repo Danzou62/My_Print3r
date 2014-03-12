@@ -1,12 +1,14 @@
 <!DOCTYPE html>
+
 <html lang="fr"><head><meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
   <head>  
     
     <title>Print3R</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">    <!-- On ouvre la fenetre a la largeur de l'ecran -->
-    <link href="bootstrap/css/bootstrap.css" rel="stylesheet" media="screen">    <!-- Integration du CSS Bootstrap -->
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>    <!-- Intégration de la libraire jQuery -->
-    <link href="bootstrap/css/bootstrap-responsive.min.css" rel="stylesheet">    <!-- Integration du CSS responsive Bootstrap -->
+    <link href="bootstrap/css/bootstrap.css" rel="stylesheet" media="screen"> 
+    <link href="bootstrap/css/bootstrap-theme.css" rel="stylesheet"> <!-- Integration du CSS responsive Bootstrap -->
+	<script src="bootstrap/js/jquery-1.10.2.min.js"></script>
+	
 	
 	<script type="text/javascript"> <!-- script pour mettre le active sur le lien cliqué -->
 		$('.nav li a').on('click', function() {
@@ -30,7 +32,7 @@
             <span class="icon-bar"></span>
           </a>
           
-          <a class="brand" href="#">Print3R</a>
+          <a class="mavbar-brand" href="#">Print3R</a>
           
           <!-- Structure du menu -->
           <div class="nav-collapse collapse" style="height: 0px;">

@@ -8,15 +8,9 @@
 
     <title>Print3R - Upload</title>
 	 
-    <!-- Integration du CSS Bootstrap -->
-    <link href="bootstrap/css/bootstrap.css" rel="stylesheet" media="screen">
-	<!-- Integration du CSS responsive Bootstrap -->
-    <link href="bootstrap/css/bootstrap-responsive.min.css" rel="stylesheet">
-	<style type="text/css"></style>
-	<style type="text/css"></style>
-	<style type="text/css"></style>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-
+    
+    <link href="bootstrap/css/bootstrap.css" rel="stylesheet" media="screen"> <!-- Integration du CSS Bootstrap -->
+    <link href="bootstrap/css/bootstrap-responsive.min.css" rel="stylesheet"> <!-- Integration du CSS responsive Bootstrap -->
     <link href="bootstrap/css/offcanvas.css" rel="stylesheet">
 
 <script type="text/javascript" src="chrome-extension://bfbmjmiodbnnpllbbbfblcplfjjepjdn/js/injected.js"></script>
