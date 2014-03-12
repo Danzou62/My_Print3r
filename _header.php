@@ -5,7 +5,11 @@
     
     <title>Print3R</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">    <!-- On ouvre la fenetre a la largeur de l'ecran -->
+<!--
     <link href="bootstrap/css/bootstrap.css" rel="stylesheet" media="screen"> 
+-->
+    <link href="bootstrap/css/bootstrap_1.css" rel="stylesheet" media="screen"> 
+
     <link href="bootstrap/css/bootstrap-theme.css" rel="stylesheet"> <!-- Integration du CSS responsive Bootstrap -->
 	<script src="bootstrap/js/jquery-1.10.2.min.js"></script>
 	
@@ -21,7 +25,7 @@
   
   <body style="padding-top: 0px">
     
-    <div class="container">    <!-- Conteneur principal -->
+    <div class="container">    	<!-- Conteneur principal -->
       
       <div class="navbar navbar-inverse">	<!-- Barre de navigation -->
         <div class="navbar-inner">
