@@ -34,8 +34,14 @@
   float: none;
 }
 
-.text-icon {
+.HP-bloc {
+	margin-bottom: 80px;	
+}
+
+.HP-icon-text { /* trois icones sur la HP */
 	text-align: justify;
+	height: 100px;
+	overflow: hidden;
 }
 
 .carousel {
