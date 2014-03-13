@@ -43,7 +43,7 @@
                 <li<?php if ($nav_en_cours == 'login') {echo ' class="active"';} ?>><a href="page_connexion.php">Connectez-vous</a></li>      
                 
                 <li class="dropdown<?php if ($nav_en_cours == 'other') {echo ' active';} ?>">
-                  <a href="#" class="dropdown-toggle" data-toggle="dropdown">Modèles <b class="caret"></b></a>
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown">Mod&egrave;les <b class="caret"></b></a>
                  
                   <ul class="dropdown-menu">
                     <li class="dropdown-header">Type de modele 1</li>
