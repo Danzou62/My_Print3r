@@ -9,3 +9,38 @@
 	margin-bottom: 10px;
 	width: 60%; !important
 }
+
+.main-text
+{
+    position: absolute;
+    top: 50px;
+    width: 96.66666666666666%;
+    color: #FFF;
+}
+.btn-min-block
+{
+    min-width: 170px;
+    line-height: 26px;
+}
+.btn-clear
+{
+    color: #FFF;
+    background-color: transparent;
+    border-color: #FFF;
+    margin-right: 15px;
+}
+.btn-clear:hover
+{
+    color: #000;
+    background-color: #FFF;
+}
+
+[class*="span"].centred {
+  margin-left: auto;
+  margin-right: auto;
+  float: none;
+}
+
+.text-icon {
+	text-align: justify;
+}
