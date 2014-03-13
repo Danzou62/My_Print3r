@@ -55,8 +55,7 @@
 
 
       <!-- Three columns of text below the carousel -->
-      <div class="row">
-	  
+	  <div class="row first">
         <div class="col-lg-4 text-center HP-bloc">
           <img class="center-block" src="./bootstrap/Icons/FontAwesome_f0eb(0)_256.png" style="width: 140px; height: 140px;">
           <h2>Imaginer</h2>
