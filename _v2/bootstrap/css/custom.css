@@ -49,7 +49,12 @@ body
 Homepage
 ************************************/
 .HP-bloc {
-	margin-bottom: 80px;	
+	margin-bottom: 80px;
+/* 	box-shadow: rgba(0, 0, 0, 0.1) 0px 5px 5px 2px; */
+/* 	background: rgba(200, 200, 200, 0.5); */
+	transition: 0.5s;
+	border-radius: 4px;
+/* 	border: 1px solid white; */
 }
 
 .HP-icon-text { /* trois icones sur la HP */
@@ -68,6 +73,17 @@ footer {
 	margin-top: 20px;
 	font-size: smaller;
 }
+
+.HP-bloc:hover {
+	margin-top: -10px;
+	border: 1px solid rgb(200, 200, 200);
+	box-shadow: rgba(0, 0, 0, 0.1) 0px 5px 5px 2px;
+	background: rgba(200, 200, 200, 0.5);
+	transition: 0.5s;
+	border-radius: 4px;
+/* 	border: 1px solid transparent; */
+}
+
 /*
 ************************************
 page connexion
