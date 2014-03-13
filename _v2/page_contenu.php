@@ -3,7 +3,7 @@
 	include('include_header.php');
 ?>
       
-<div class="container">
+<div class="container" style=" padding-left: 0px; padding-right: 30px;">
       <div class="row row-offcanvas row-offcanvas-right">
 
         <div class="col-xs-12 col-sm-9">

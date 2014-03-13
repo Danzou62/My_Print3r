@@ -17,13 +17,13 @@
     <div class="row">
         <div class="col-md-8">
             <div class="well well-sm">
-                <form>
-                <div class="row">
+                <form style="margin-left :10px;">
+                <div class="row" style="width: 740px;">
                     <div class="col-md-6">
                         <div class="form-group">
                             <label for="name">
                                 Nom</label>
-                            <input type="text" class="form-control"  style="width:350px;" id="name" placeholder="Entrer votre nom" required="required" />
+                            <input type="text" class="form-control" id="name" placeholder="Entrer votre nom" required="required" />
                         </div>
                         <div class="form-group">
                             <label for="email">
@@ -36,7 +36,7 @@
                         <div class="form-group">
                             <label for="subject">
                                 Sujet</label>
-                            <select id="subject" name="subject"  style="width: 350px;" class="form-control" required="required">
+                            <select id="subject" name="subject" class="form-control" required="required">
                                 <option value="na" selected="">Choisir une catégorie dans la liste :</option>
                                 <option value="service">Service client</option>
                                 <option value="suggestions">Suggestions</option>
