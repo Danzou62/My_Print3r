@@ -11,10 +11,8 @@
     <title>Print3R</title>
 
     <link href="./bootstrap/css/bootstrap.css" rel="stylesheet">    <!-- Bootstrap core CSS -->
-    <link href="./bootstrap/css/carousel.css" rel="stylesheet">    <!-- Custom styles for this template -->
     <link href="./bootstrap/css/custom.css" rel="stylesheet">    <!-- custom styles -->
     
-	<style type="text/css"></style>
 	<style id="holderjs-style" type="text/css"></style>
 
 </head>
@@ -39,6 +37,7 @@
             <div class="navbar-collapse collapse">
               <ul class="nav navbar-nav">
                 <li<?php if ($nav_en_cours == 'home') {echo ' class="active"';} ?>><a href="./">Accueil</a></li>
+                <li<?php if ($nav_en_cours == 'faq') {echo ' class="active"';} ?>><a href="page_faq.php">FAQ</a></li>
                 <li<?php if ($nav_en_cours == 'about') {echo ' class="active"';} ?>><a href="page_a-propos.php">A propos</a></li>
 				<li<?php if ($nav_en_cours == 'contact') {echo ' class="active"';} ?>><a href="page_contactez-nous.php">Contactez-nous</a></li>
                 <li<?php if ($nav_en_cours == 'login') {echo ' class="active"';} ?>><a href="page_connexion.php">Connectez-vous</a></li>      
@@ -74,4 +73,4 @@
       </div>
     </div>
     
-    <div id="container">
+    <div class="container">

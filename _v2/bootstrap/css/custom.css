@@ -1,10 +1,3 @@
-#container {
-	width: 1000px;
-	margin-top: 100px;
-	margin-left: auto;
-	margin-right: auto;
-}
-
 .form-control {
 	margin-bottom: 10px;
 	width: 60%; !important
@@ -43,4 +36,13 @@
 
 .text-icon {
 	text-align: justify;
+}
+
+.carousel {
+	margin-bottom: 40px;
+}
+
+footer {
+	margin-top: 20px;
+	font-size: smaller;
 }
