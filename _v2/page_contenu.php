@@ -32,8 +32,8 @@
                         Product description... Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
                         sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
                     <div class="row">
-                        <div class="col-xs-12 col-md-6">
-                            <div class="panel-footer text-center" style="width: 340px; height: 39px;">
+                        <div class="col-xs-12">
+                            <div class="panel-footer text-center" style="width: 100%; height: 39px;">
                     <a href="http://localhost/My_Print3r/_v2/page_contenu.php#download"><span class="glyphicon glyphicon-download" style="height: 22px; font-size: 22px;"></span></a>
                     <a href="http://localhost/My_Print3r/_v2/page_contenu.php#facebook"><span class="glyphicon glyphicon-thumbs-up" style=" height: 22px; font-size: 22px; "></span></a>
                     <a href="http://localhost/My_Print3r/_v2/page_contenu.php#twitter"><span class="glyphicon glyphicon-globe" style=" height: 22px; font-size: 22px; "></span></a>
