@@ -1,11 +1,15 @@
-<?php include("_header.php"); ?>
+<?php 
+	$nav_en_cours = 'compte';
+	include('include_header.php');
+?>
 		
 <form class="form-horizontal" id="registration" method='post' action='register.php'>
 <fieldset>
 
 <div class="row">
 
-<div class="span12">
+<div class="span9">
+<center>
 <legend>Inscription</legend>
 <div class="control-group">
 <label class="control-label">Pseudo:</label>
@@ -43,6 +47,7 @@
 </div>
 
 <div class="row">
+<center>
   <div class="col-xs-2">
   <label class="control-label">Ville:</label>
     <input type="text" class="form-control" placeholder=".col-xs-2">
@@ -59,6 +64,7 @@
 
 
 <div class="row">
+<center>
 <div class="span4">
 <div class="control-group">
 <label class="control-label">Ville:</label>
@@ -69,6 +75,7 @@
 </div>
 
 <div class="span3">
+<center>
 <div class="control-group">
 <label class="control-label">Code postal:</label>
 <div class="controls">
@@ -79,6 +86,7 @@
 </div>
 
 <div class="row">
+<center>
 <div class="span2">
 <div class="control-group">
 <label class="control-label"></label>
@@ -106,4 +114,4 @@
 
 </form>
 
-<?php include("_footer.php"); ?>
+<?php include('include_footer.php'); ?>

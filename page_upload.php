@@ -1,23 +1,31 @@
-<?php include("_header.php"); ?>
+<?php 
+	$nav_en_cours = 'upload';
+	include('include_header.php');
+?>
+<div class="container auth">
 
 	<!-- Form Name -->
-<legend>Envoyer mes Contenus</legend>
-
+<legend1>
+<h1 class="text-center"> Envoyer mes Contenus </h1>
+</legend1>
+<div id="big-form" class="well auth-box">
+      <form>
+	  <fieldset>
 <!-- Text input-->
 <div class="control-group">
-  <label class="control-label" for="Mes_crea">Titre de votre création</label>
+  <label class="control-label" for="Mes_crea">Titre de votre creation</label>
   <div class="controls">
     <input id="Mes_crea" name="Mes_crea" placeholder="Ex : Vase, figurine..." class="input-xlarge" required="" type="text">
-    <p class="help-block">Avec le moins de mots possible décrivez votre création</p>
+    <p class="help-block">Avec le moins de mots possible decrivez votre creation</p>
   </div>
 </div>
 
 <!-- Button Drop Down -->
 <div class="control-group">
-  <label class="control-label" for="buttondropdown">catégorie</label>
+  <label class="control-label" for="buttondropdown">categorie</label>
   <div class="controls">
     <div class="input-append">
-      <input id="buttondropdown" name="buttondropdown" class="input-xlarge" placeholder="Choississez votre catégorie" required="" type="text">
+      <input id="buttondropdown" name="buttondropdown" class="input-xlarge" placeholder="Choississez votre categorie" required="" type="text">
       <div class="btn-group">
         <button class="btn dropdown-toggle" data-toggle="dropdown">
           Trouver
@@ -25,8 +33,8 @@
         </button>
         <ul class="dropdown-menu">
           <li><a href="#">Maison</a></li>
-          <li><a href="#">Décoration</a></li>
-          <li><a href="#">Modélisme</a></li>
+          <li><a href="#">Decoration</a></li>
+          <li><a href="#">Modelisme</a></li>
         </ul>
       </div>
     </div>
@@ -67,49 +75,9 @@
 </div>
 
 </fieldset>
-</form>
-<div class="row">
 
-<div class="span9">
-<form class="form-horizontal">  
-        <fieldset>  
-          <legend>Formulaire de contact</legend>  
-          <div class="control-group">  
-            <label class="control-label" for="input01">Titre</label>  
-            <div class="controls">  
-              <input type="text" class="input-xlarge" id="input01">  
-              <p class="help-block">Ecrivez-ici le nom de votre création </p>  
-            </div>  
-          </div>   
-          <div class="control-group">  
-            <label class="control-label" for="select01">Select list</label>  
-            <div class="controls">  
-              <select id="select01">  
-                <option>Maison</option>  
-                <option>Décoration</option>  
-                <option>Modélisme</option>  
-                <option>Autres</option>               
-              </select>  
-            </div>  
-          </div>  
-          <div class="control-group">  
-            <label class="control-label" for="fileInput">Joindre un fichier</label>  
-            <div class="controls">  
-              <input class="input-file" id="fileInput" type="file">  
-            </div>  
-          </div>  
-          <div class="control-group">  
-            <label class="control-label" for="textarea">Description</label>  
-            <div class="controls">  
-              <textarea class="input-xlarge" id="textarea" rows="9"></textarea>  
-            </div>  
-          </div>  
-          <div class="form-actions">  
-            <button type="submit" class="btn btn-primary">Envoyer</button>  
-            <button class="btn">Annuler<a href="mon_projet.html"></a></button><a href="mon_projet.html">  
-          </a></div><a href="mon_projet.html">  
-		  </a></fieldset></form></div><a href="mon_projet.html">
-          
-		</a></div>
+</form>
+</div>
+</div>
 	
-<?php include("_footer.php"); ?>   
+<?php include('include_footer.php'); ?> 
